@@ -115,7 +115,7 @@ h4 {
 
 .home-bg-image{
   position: absolute;
-  transform: translate(-30%, -10%);
+  transform: translate(-24%, -20%) scale(0.8,0.8);
   display: block;
   max-width: 1520px;
 }
