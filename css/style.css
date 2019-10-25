@@ -385,15 +385,16 @@ input.hs-button.primary.large {
   text-transform: lowercase;
   cursor: pointer;
   transition: .3s ease;
-  min-width: 200px;
+  min-width: 170px;
+  line-height: 1.2;
   text-shadow: 0 3px 5px rgba(33, 62, 83, 0.2);
   color: white;
-  font-size: 35px;
+  font-size: 26px;
   font-weight: 900;
-  border-radius: 7px;
+  border-radius: 10px;
   height: 70px;
-  box-shadow: 0 15px 25px rgba(25, 51, 71, 0.1), inset 0 -6px 0 rgba(0, 0, 0, 0.1);
-  background-color: #d3de3f;
+  box-shadow: 0 15px 25px rgba(25, 51, 71, 0.1), inset 0 -5px 0 rgba(0, 0, 0, 0.1);
+  background-color: #d2de40;
   background-image: linear-gradient(25deg, rgba(195, 216, 46, 0.5) 0%, rgba(230, 231, 93, 0.5) 100%);
 }
 
