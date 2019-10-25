@@ -377,6 +377,7 @@ h4 {
 }
 
 input.hs-button.primary.large {
+  float:right;
   border: none;
   outline: none;
   margin: auto;
@@ -612,8 +613,9 @@ label.lms-text span{
   line-height: 1.41;
   text-align: right;
   margin-right: 80px;
-  /* float:left;
-  display:inline; */
+  float:left;
+  display:inline;
+  width:70%;
 }
 
 /********************
