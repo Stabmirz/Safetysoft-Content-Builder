@@ -109,7 +109,9 @@ h1{
   width: 60%;
 }
 
-/* Home */
+/***************
+      Home 
+****************/
 
 .home {
   padding: 60px 0 160px;
@@ -153,10 +155,6 @@ h2.home-headline{
   padding-top: 60px;
   z-index: 1;
 }
-
-/* .home-col:first-child {
-  z-index: 1;
-} */
 
 .home-text-wrap {
   margin-top: 63%;
@@ -240,7 +238,6 @@ h2.home-headline{
 .content-bg-image1{
   position: absolute;
   left:0;
-  /* transform: translate(-30%, -41%) scale(0.45,0.425); perfect */
   transform: translate(-29%, -40%) scale(0.45,0.425);
   z-index: 0;
 }
@@ -248,7 +245,6 @@ h2.home-headline{
 .content-bg-image2{
   position: absolute;
   right:0;
-  /* transform: translate(29%, -40.5%) scale(0.43,0.43); */
   transform: translate(28%, -37%) scale(0.44,0.44);
   z-index: 0;
 }
@@ -356,12 +352,6 @@ h2.home-headline{
   top: 575px;
 }
 
-/* .content-icon1:nth-child(6){
-  max-width: 38px;
-  left: -19px;
-  top: 120px;
-} */
-
 /************************
   content-two
 *************************/
@@ -465,11 +455,6 @@ h2.home-headline{
 /***********************
       Content-three
 ************************/
-
-
-/* .heading-up{
-  margin-top: -60px;
-} */
 
 .heading-down{
   margin-left:137px;
@@ -725,12 +710,6 @@ li{
   margin-bottom: 0;
 }
 
-/* label.lms-text span{
-  display: inline-block;
-  width: 59em;
-  text-align: center;
-} */
-
 [type="radio"]:checked,
 [type="radio"]:not(:checked) {
   visibility: hidden;
@@ -809,8 +788,6 @@ input:focus::placeholder{
   -webkit-transform: scale(0);
   transform: scale(0);
 }
-
-
 
 .form-label {
   color: rgba(25, 51, 71, 0.41);
@@ -1116,10 +1093,6 @@ button.btn-style:focus{
     text-align: center;
   }
   
-  .content {
-    padding: 0;
-  }
-
   .footer-nav{
     flex-wrap: wrap;
   }
@@ -1131,13 +1104,7 @@ button.btn-style:focus{
 }
 
 @media only screen and (max-width: 350px){
-  p#text{
-    font-size: 42px;
-  }
 
-  h2.keypoint-title{
-    font-size: 52px;
-  }
 }
 
 
@@ -1172,21 +1139,6 @@ button.btn-style:focus{
     width:90%;
     margin: auto;
   }
-
-  /* .home-text-wrap h1{
-    font-size: 18px;
-  }
-
-  .home-text-wrap{
-    padding-left: 0px;
-  }
-
-  .home-text-para {
-    max-width: 100%;
-    font-size: 14px;
-    line-height: 1.3;
-    margin-top: 14px;
-  } */
 
   .home-col-2 {
     width:100%;
@@ -1250,24 +1202,6 @@ button.btn-style:focus{
     margin-bottom: 8px;
   }
 
-/* 
-  .home-text{
-    margin-left: 0px;
-  }
-
-  .btn-style{
-    height:60px;
-  }
-
-  .btn-style-text{
-    font-size: 20px;
-  } */
-
-  /*   Keypoint */
-
-  
-
-  /*  tool */
 
 
 
@@ -1354,9 +1288,6 @@ button.btn-style:focus{
     display: table;
   }
 
-  /* textarea#multi_line_text_property {
-    padding: 10px 10px;
-  } */
 
   #lms_name-06257986-1392-4aad-86ec-bba38f21f752{
     padding: 10px 10px;
@@ -1406,8 +1337,6 @@ button.btn-style:focus{
     align-self: center;
   }
 
-  
-  /* contact */
 
  /* contact */
   .contact{
