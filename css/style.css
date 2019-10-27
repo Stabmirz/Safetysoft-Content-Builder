@@ -1104,7 +1104,26 @@ button.btn-style:focus{
 }
 
 @media only screen and (max-width: 350px){
+ .container{
+  padding: 0;
+ }
 
+ h2.custom-title{
+  font-size: 41px;
+ }
+
+ p.important {
+  font-size: 27px;
+ }
+
+ .custom-title.premade {
+  margin-top: -75px;
+  margin-left: 81px;
+ }
+
+ p.or{
+  margin-top: -85px;
+ }
 }
 
 
@@ -1152,7 +1171,7 @@ button.btn-style:focus{
   } */
 
   .home-text-wrap{
-    margin-top: 85%;
+    margin-top: 300px;
     /* margin-bottom: -20px; */
   }
 
@@ -1176,7 +1195,7 @@ button.btn-style:focus{
 
   .home-bg-image {
     /* transform: translate(-40%, -45%) scale(0.2,0.2); */
-    transform:translate(-39.5%, -34%) scale(0.2,0.2);
+    transform:translate(-36%, -30%) scale(0.2,0.2);
   }
 
   /* .row {
@@ -1483,6 +1502,8 @@ button.btn-style:focus{
     font-size: 22px;
     line-height: 1;
   }
+
+
  /****************
     footer
  *****************/
