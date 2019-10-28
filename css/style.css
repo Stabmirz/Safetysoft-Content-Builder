@@ -1316,8 +1316,12 @@ button.btn-style:focus{
 
   .hs-form label {
     font-size: 18px;
-    top: -30px;
+    top: -35px;
   }  
+
+  #label-do_you_have_an_lms_radio-06257986-1392-4aad-86ec-bba38f21f752{
+    margin-top:30px;
+  }
 
   .hs-form .hs-form-field {
     margin-bottom: 50px;
@@ -1508,36 +1512,6 @@ button.btn-style:focus{
 
 @media only screen and (min-width:601px) and (max-width:767px){
 
-
-
-  /*  form */
-/* 
-
-
-
-
-
-
-
-  .form-columns-1, .form-columns-2{
-    margin-top: 0px;
-  }
-
-  select#numemployees.hs-input{
-    font-size: 16px;
-  }
-
-  select{
-    background-position: 90% 45%;
-    background-size: 18px;
-    text-align-last: left;
-  }
-
- #lms_name-06257986-1392-4aad-86ec-bba38f21f752 {
-    padding: 10px 10px;
-  }
- */
-
   .content-wrapper{
     width:100%;
   }
@@ -1557,10 +1531,8 @@ button.btn-style:focus{
     padding-top: 20px;
   }
 
-
   .home-text-wrap{
-    margin-top: 400px;
-    /* margin-bottom: -20px; */
+    margin-top: 310px;
   }
 
   .home-row {
@@ -1782,11 +1754,19 @@ button.btn-style:focus{
   }
 
   #lms_name-06257986-1392-4aad-86ec-bba38f21f752{
-    margin-top: -32px;
+    margin-top: -20px;
   }
 
   .hs_do_you_have_an_lms_radio label {
     left: 30%;
+  }
+
+  .hs-form label.hs-form-radio-display {
+    top: -30px;
+  }
+
+  .hs_do_you_have_an_lms_radio.hs-do_you_have_an_lms_radio.hs-fieldtype-radio{
+    margin-bottom: 0px;
   }
 
   ul{
@@ -1803,6 +1783,10 @@ button.btn-style:focus{
     padding: 10px 25px;
   }
 
+  #label-do_you_have_an_lms_radio-06257986-1392-4aad-86ec-bba38f21f752{
+    margin-top: 10px;
+  }
+
   
   .form-label{
     text-align: right;
@@ -1812,26 +1796,14 @@ button.btn-style:focus{
     width: 66%;
   }
 
-  /* .form-label{
-    text-align: center;
-    font-size: 14px;
-    margin: 20px 0px 20px 0px;
-  } */
-
-  /* input.hs-button.primary.large {
-    float: none;
-    min-width:40%;
-    margin:0% 30%;
-    height: 55px;
-    font-size: 24px;
-  } */
+  input.hs-button.primary.large {
+    margin-top: -20px;
+  }
 
  /****************
      contact 
  *****************/
 
-  
-  /* contact */
   .contact{
     margin: 5% 0 0 0;
   }
@@ -1902,45 +1874,52 @@ button.btn-style:focus{
     width: 96%;
   }
 
-  .home{
-    padding: 20px 0 60px;
+  .home {
+    padding: 30px 0 0;
+    margin-bottom: 50px;
   }
 
-  /* .heading-up{
-    margin-bottom: -50px;
-  } */
+  .logo img{
+    margin-top: -15px;
+    max-width: 80%;
+  }
+
+  .home-text-wrap {
+    margin-top: 80%;
+  }
+  
+  .home-bg-image {
+    transform: translate(-46%, -33%) scale(0.44,0.44);
+  }
 
   .home-col-1 {
-    width:90%;
+    z-index: 2;
+    width: 50%;
     margin: auto;
   }
 
-  /* .home-text-wrap h1{
-    font-size: 30px;
+  h1{
+    font-size: 48px;
   }
 
-  .home-text-wrap{
-    padding-left: 0px;
+  h2.home-headline {
+    font-size: 80px;
   }
+
 
   .home-text-para {
     max-width: 100%;
     font-size: 20px;
     line-height: 1.3;
     margin-top: 14px;
-  } */
-
-  .home-col-2 {
-    width:80%;
-    margin: auto;
   }
 
-  /* .home-bg{
-    max-width:100%;
-  } */
+  .home-col-2 {
+    width:40%;
+  }
 
-  .home-row {
-    flex-direction: column-reverse;
+  .custom-title {
+    font-size: 48px;
   }
 
   /* .row {
@@ -1948,79 +1927,106 @@ button.btn-style:focus{
     margin:0px;
   } */
 
-  /* content */
+  /*******************
+         content 
+  ********************/
 
-
-  /* .content{
-    padding: 0% 2%;
-  } */
-
+  .content {
+    width: 100%;
+    padding: 5% 0%;
+  }
+  
   .custom-title {
-    font-size: 100px;
-    text-align: center;
+    font-size: 54px;
+    text-align: left;
   }
 
-  /* .heading-down{
-    margin: 30px 0px 0px 0px;
-  } */
+  .content-image-wrap {
+    margin-top: 0%;
+  }
 
-  /* .cRow {
-    margin-left:0%;
-  } */
+  .content-bg-image1 {
+    transform: translate(-36%, -40%) scale(0.3,0.3);
+  }
 
-  /* .content-content-wrap{
-    padding-right: 0px;
-  } */
+  .content-bg-image2 {
+    transform: translate(35%, -37%) scale(0.3,0.3);
+  }
 
-  /* .content-content-wrap.col-7 p{
-    font-size: 14px;
-  } */
+  .important {
+    font-size: 33px;
+  }
 
-  /* h4{
+  .management {
+    margin-top: -20px;
+    margin-bottom: 0;
+  }
+
+  .content-text {
     font-size: 16px;
-  } */
+  }
+
+  .content-para{
+    margin-top: 20px;
+  }
+
+  .or-premade{
+    margin-left: 50px;
+  }
+
+  .or {
+    font-size: 40px;
+    margin-top: -31px;
+  }
+
+  .premade {
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+
+  .track-result{
+    margin-left: 15%;
+  }
+
+  .heading-down {
+    margin-left: 65px;
+    margin-top: -45px;
+  }
 
   .anim-icon-wrap{
     height: 310px;
     align-self: center;
   }
 
-
-
-  /* keypoint */
-
- 
-  /* Tools */
-
-
   /* Form */
 
   .form-section {
-    padding: 150px 0px 0px 0px;
+    padding: 0px;
+    margin-bottom: 155px;
   }
 
   .course-builder-form{
     padding: 0px 20px;
   }
 
-  #text{
-    font-size: 60px;
+  .form-heading {
+    font-size: 40px;
   }
 
   .form-columns-1, .form-columns-2{
     margin-top: 45px;
   }
 
-  .hs-form label.left{
-    left: 20px;
-  }
-
-  .hs-form label.right{
-    right: 20px;
-  }
-
   .hs-form label{
     top:-35px;
+  }
+
+  .hs_firstname label, .hs_lastname label, .hs_company label {
+    left:20px;
+  }
+
+  .hs_firstname label, .hs_lastname label, .hs_company label {
+    right:20px;
   }
 
   select{
@@ -2034,10 +2040,13 @@ button.btn-style:focus{
     padding: 10px 20px;
   }
 
-  /* textarea#multi_line_text_property {
-    padding: 20px 20px;
-  } */
+  .hs_do_you_have_an_lms_radio label {
+    left: 35%;
+  }
 
+  #lms_name-06257986-1392-4aad-86ec-bba38f21f752 {
+    margin-top: -51px;
+  }
 
   #lms_name-06257986-1392-4aad-86ec-bba38f21f752 {
     padding: 20px 20px;
@@ -2049,7 +2058,9 @@ button.btn-style:focus{
 
   .form-label{
     font-size: 11px;
+    width: 75%;
   }
+
 
   /* contact */
   .contact {
@@ -2082,12 +2093,6 @@ button.btn-style:focus{
     line-height: 2.5;
   }
 
-  /* Footer */
-
-  .footer{
-    padding: 200px 20px 20px;
-  }
-
 }
 
 @media only screen and (min-width:951px) and (max-width:1200px){
@@ -2109,7 +2114,9 @@ button.btn-style:focus{
   } */
 
 
-  /* content */
+ /****************
+     content
+ *****************/
 
 
   /* .content{
@@ -2196,7 +2203,10 @@ button.btn-style:focus{
     padding: 10px 20px;
   }
 
-  /* contact */
+ /****************
+     contact 
+ *****************/
+
   .contact {
     margin:100px 0px 0px;
   }
@@ -2227,7 +2237,9 @@ button.btn-style:focus{
     line-height: 2.5;
   }
 
-  /* Footer */
+  /****************
+      Footer
+  *****************/
 
   .footer{
     padding: 200px 20px 20px;
@@ -2364,7 +2376,7 @@ button.btn-style:focus{
 
 }
 
-@media only screen and (min-width: 770px) and (max-width: 1023px){
+@media only screen and (min-width: 768px) and (max-width: 1023px){
   .small-icon-wrap{
     display: none;
   }
